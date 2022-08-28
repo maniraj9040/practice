@@ -1,0 +1,2036 @@
+{
+    "data": {
+        "links": {
+            "coverageResponse": {
+                "href": "https://api.availity.com/availity/sdk/v1/dfs/ZDZtMEJEUElSallLMFJQYmlWRlgvSDR0NHg2YnBCU3gyaCs0SG5PbXpzNjgxaWNUTEwxK1FpbnFBQ2dreUNjZmh4VC85UDdad2hjNlUyTzJCcEhDSU1MT1I4YkVidzdqSVlrbTFqd2EvV0U5NUlJRFp5Q1JVUkZhL05lV2dlN0t3elIrYUg3ay9GVEttQWE1Z2Jibi93blFtVHVxN0hNVHN0WnIyVWNxVEo3U0loT1k2OUw2bGtXNXJGS1JDd2Z2NVRQVWlmR3BaOUxXWi83SlB6ZHo1d1pzUGdzdXl2UFQxRmlMcmhsdGY3eGpHRlg2TUJiMGZ2NzlEUGkxVXl2djlWcXliSmR1K2JraEFQWkVZcXJUOWc9PQ.bin"
+            },
+            "coverageTransaction": {
+                "href": "https://api.availity.com/availity/sdk/v1/transactions/91006766621652383427970300018303"
+            },
+            "coverageRequest": {
+                "href": "https://api.availity.com/availity/sdk/v1/dfs/QnA4azhPRE9GMllPVGdkcklvZU96eXRLRC9zYzFodnU2eFp5Uys4RkMrYTJzdWJ0RUtiU3BxMHI1VW5VTkpxM2wxRUliQTRuVWttbVZzSkNDV25hTWFPVndvVjYyNExTUW50S0wwS2NTWWZ0b3Q4S1NtTTVZcmYvTWhPWVhNa0VIZUp5aFEyb09FSytPbldDQy9YODhGWERrM01mZ3gvVkZiSWVYRThoTnBYeFhNRm1XRXlHSzF5aXZBdFNZbnFIeXpxUWRIUnBsZEhwd2hQdks1NVRhdnVvSDZSUFhCNVJzT0xFeVl6aXM2TDg5YlJLaHRlWW8wbDBYV0F3VGdiS2tiaE93d2RTZkhDTzdKd3JsRTlwN1E9PQ.bin"
+            },
+            "self": {
+                "href": "https://api.availity.com/availity/v1/coverages/-4495911854278988110"
+            }
+        },
+        "id": "-4495911854278988110",
+        "customerId": "1212694",
+        "controlNumber": "43543977311",
+        "status": "Complete",
+        "statusCode": "4",
+        "createdDate": "2022-05-12T19:23:47.000+0000",
+        "updatedDate": "2022-05-12T19:23:47.000+0000",
+        "expirationDate": "2022-05-13T19:23:47.000+0000",
+        "asOfDate": "2022-05-11T04:00:00.000+0000",
+        "requestedServiceType": [
+            {
+                "code": "30",
+                "value": "Health Benefit Plan Coverage"
+            }
+        ],
+        "subscriber": {
+            "firstName": "JAITUN",
+            "middleName": "G",
+            "lastName": "PATEL",
+            "memberId": "XOH833812550",
+            "gender": "Male",
+            "genderCode": "M",
+            "birthDate": "1987-03-26T05:00:00.000+0000",
+            "address": {
+                "line1": "3943 NAUTILUS LANE",
+                "city": "HANOVER PARK",
+                "state": "Illinois",
+                "stateCode": "IL",
+                "zipCode": "601336160"
+            }
+        },
+        "patient": {
+            "firstName": "JAITUN",
+            "middleName": "G",
+            "lastName": "PATEL",
+            "subscriberRelationship": "Self",
+            "subscriberRelationshipCode": "18",
+            "gender": "Male",
+            "genderCode": "M",
+            "birthDate": "1987-03-26T05:00:00.000+0000",
+            "address": {
+                "line1": "3943 NAUTILUS LANE",
+                "city": "HANOVER PARK",
+                "state": "Illinois",
+                "stateCode": "IL",
+                "zipCode": "601336160"
+            },
+            "updateYourRecords": false
+        },
+        "payer": {
+            "name": "BCBS ALABAMA PROFESSIONAL",
+            "payerId": "00510BS",
+            "responseName": "BCBS ALABAMA PROFESSIONAL",
+            "responsePayerId": "510",
+            "thirdPartyAdministrator": false
+        },
+        "requestingProvider": {
+            "lastName": "AVAILITY",
+            "npi": "1891156444"
+        },
+        "plans": [
+            {
+                "status": "Active Coverage",
+                "statusCode": "1",
+                "groupNumber": "B00935",
+                "groupName": "SENIOR LIFESTYLE CORPORATION",
+                "planNetworkId": "503",
+                "coverageStartDate": "2021-10-01T04:00:00.000+0000",
+                "coverageEndDate": "9999-12-31T05:00:00.000+0000",
+                "contacts": [
+                    {
+                        "category": "Primary Care Provider",
+                        "categoryCode": "L",
+                        "type": "Independent Physicians Association (IPA)",
+                        "typeCode": "I3",
+                        "name": "E H P NORTHWEST COMMUNITY"
+                    }
+                ],
+                "benefits": [
+                    {
+                        "name": "Health Benefit Plan Coverage",
+                        "type": "30",
+                        "status": "Active Coverage",
+                        "statusCode": "1",
+                        "statusDetails": {
+                            "noNetwork": [
+                                {
+                                    "status": "Active Coverage",
+                                    "statusCode": "1",
+                                    "insuranceType": "Health Maintenance Organization (HMO)",
+                                    "insuranceTypeCode": "HM",
+                                    "description": "BLUEADVANTAGE HMO MEDICAL"
+                                },
+                                {
+                                    "status": "Active Coverage",
+                                    "statusCode": "1",
+                                    "insuranceType": "Preferred Provider Organization (PPO)",
+                                    "insuranceTypeCode": "PR",
+                                    "description": "PPO DENTAL",
+                                    "groupNumber": "232751",
+                                    "groupName": "SENIOR LIFESTYLE CORPORATION"
+                                }
+                            ]
+                        },
+                        "benefitDescriptions": {
+                            "noNetwork": [
+                                {
+                                    "payerNotes": [
+                                        "MEMBERS BENEFIT PLAN ONLY COVERS URGENT AND EMERGENT SERVICES OUTSIDE OF ILLINOIS, INDIANA, KENTUCKY, MISSOURI OR WISCONSIN.  IF SERVICE RENDERED IS NOT DEEMED URGENT/EMERGENT, SERVICE MAY NOT BE COVERED."
+                                    ]
+                                },
+                                {
+                                    "payerNotes": [
+                                        "BENEFITS ARE BASED ON A REFERRAL FROM THE PRIMARY CARE PHYSICIAN AND MEDICAL GROUP APPROVAL."
+                                    ]
+                                }
+                            ]
+                        },
+                        "payerNotes": [
+                            {
+                                "type": "Description",
+                                "typeCode": "D",
+                                "message": "MEMBERS BENEFIT PLAN ONLY COVERS URGENT AND EMERGENT SERVICES OUTSIDE OF ILLINOIS, INDIANA, KENTUCKY, MISSOURI OR WISCONSIN.  IF SERVICE RENDERED IS NOT DEEMED URGENT/EMERGENT, SERVICE MAY NOT BE COVERED."
+                            },
+                            {
+                                "type": "Description",
+                                "typeCode": "D",
+                                "message": "BENEFITS ARE BASED ON A REFERRAL FROM THE PRIMARY CARE PHYSICIAN AND MEDICAL GROUP APPROVAL."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Chiropractic",
+                        "type": "33",
+                        "amounts": {
+                            "coInsurance": {
+                                "notApplicableNetwork": [
+                                    {
+                                        "amount": "0",
+                                        "units": "Percent",
+                                        "amountTimePeriod": "Visit",
+                                        "amountTimePeriodCode": "27",
+                                        "level": "Individual",
+                                        "levelCode": "IND",
+                                        "authorizationRequiredUnknown": true,
+                                        "payerNotes": [
+                                            "MUSCLE MANIPULATION - PROFESSIONAL"
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        "benefitDescriptions": {
+                            "noNetwork": [
+                                {
+                                    "payerNotes": [
+                                        "MEMBERS BENEFIT PLAN ONLY COVERS URGENT AND EMERGENT SERVICES OUTSIDE OF ILLINOIS, INDIANA, KENTUCKY, MISSOURI OR WISCONSIN.  IF SERVICE RENDERED IS NOT DEEMED URGENT/EMERGENT, SERVICE MAY NOT BE COVERED."
+                                    ]
+                                },
+                                {
+                                    "payerNotes": [
+                                        "BENEFITS ARE BASED ON A REFERRAL FROM THE PRIMARY CARE PHYSICIAN AND MEDICAL GROUP APPROVAL."
+                                    ]
+                                },
+                                {
+                                    "payerNotes": [
+                                        "THE FOLLOWING MUSCLE MANIPULATION MAXIMUM MAY BE COMBINED WITH OTHER THERAPY SERVICES."
+                                    ]
+                                }
+                            ]
+                        },
+                        "contacts": [
+                            {
+                                "category": "Contact Following Entity for Eligibility or Benefit Information",
+                                "categoryCode": "U",
+                                "networkStatus": "Network Not Applicable",
+                                "placeOfService": "On Campus-Outpatient Hospital",
+                                "placeOfServiceCode": "22",
+                                "authorizationRequiredUnknown": true,
+                                "payerNotes": [
+                                    "NON-EMERGENCY CARE FROM A NONPARTICIPATING PROVIDER IN A FACILITY REQUIRES PRIMARY CARE PHYSICIAN REFERRAL AND PARTICIPATING IPA/PARTICIPATING MEDICAL GROUP APPROVAL"
+                                ]
+                            },
+                            {
+                                "category": "Contact Following Entity for Eligibility or Benefit Information",
+                                "categoryCode": "U",
+                                "networkStatus": "Network Not Applicable",
+                                "placeOfService": "Office",
+                                "placeOfServiceCode": "11",
+                                "authorizationRequiredUnknown": true,
+                                "payerNotes": [
+                                    "NON-EMERGENCY CARE FROM A NONPARTICIPATING PROVIDER IN A FACILITY REQUIRES PRIMARY CARE PHYSICIAN REFERRAL AND PARTICIPATING IPA/PARTICIPATING MEDICAL GROUP APPROVAL"
+                                ]
+                            },
+                            {
+                                "category": "Contact Following Entity for Eligibility or Benefit Information",
+                                "categoryCode": "U",
+                                "type": "Utilization Management Organization",
+                                "typeCode": "X3",
+                                "name": "CUSTOMER SERVICE",
+                                "networkStatus": "Network Not Applicable",
+                                "authorizationRequiredUnknown": true,
+                                "contactInformation": [
+                                    {
+                                        "phone": "8009728088"
+                                    }
+                                ]
+                            },
+                            {
+                                "category": "Contact Following Entity for Eligibility or Benefit Information",
+                                "categoryCode": "U",
+                                "networkStatus": "Network Not Applicable",
+                                "placeOfService": "Office",
+                                "placeOfServiceCode": "11",
+                                "authorizationRequiredUnknown": true,
+                                "payerNotes": [
+                                    "NON-EMERGENCY FACILITY SERVICES REQUIRE PRIMARY CARE PHYSICIAN REFERRAL AND PARTICIPATING IPA/PARTICIPATING MEDICAL GROUP APPROVAL"
+                                ]
+                            },
+                            {
+                                "category": "Contact Following Entity for Eligibility or Benefit Information",
+                                "categoryCode": "U",
+                                "networkStatus": "Network Not Applicable",
+                                "placeOfService": "On Campus-Outpatient Hospital",
+                                "placeOfServiceCode": "22",
+                                "authorizationRequiredUnknown": true,
+                                "payerNotes": [
+                                    "NON-EMERGENCY FACILITY SERVICES REQUIRE PRIMARY CARE PHYSICIAN REFERRAL AND PARTICIPATING IPA/PARTICIPATING MEDICAL GROUP APPROVAL"
+                                ]
+                            },
+                            {
+                                "category": "Contact Following Entity for Eligibility or Benefit Information",
+                                "categoryCode": "U",
+                                "networkStatus": "Network Not Applicable",
+                                "placeOfService": "Office",
+                                "placeOfServiceCode": "11",
+                                "authorizationRequiredUnknown": true,
+                                "payerNotes": [
+                                    "NON-EMERGENCY SERVICES REQUIRE PRIMARY CARE PHYSICIAN REFERRAL AND PARTICIPATING IPA/PARTICIPATING MEDICAL GROUP APPROVAL"
+                                ]
+                            },
+                            {
+                                "category": "Contact Following Entity for Eligibility or Benefit Information",
+                                "categoryCode": "U",
+                                "networkStatus": "Network Not Applicable",
+                                "placeOfService": "On Campus-Outpatient Hospital",
+                                "placeOfServiceCode": "22",
+                                "authorizationRequiredUnknown": true,
+                                "payerNotes": [
+                                    "NON-EMERGENCY SERVICES REQUIRE PRIMARY CARE PHYSICIAN REFERRAL AND PARTICIPATING IPA/PARTICIPATING MEDICAL GROUP APPROVAL"
+                                ]
+                            },
+                            {
+                                "category": "Contact Following Entity for Eligibility or Benefit Information",
+                                "categoryCode": "U",
+                                "networkStatus": "Network Not Applicable",
+                                "placeOfService": "Office",
+                                "placeOfServiceCode": "11",
+                                "authorizationRequiredUnknown": true,
+                                "payerNotes": [
+                                    "NON-EMERGENCY CARE FROM A NONPARTICIPATING PROVIDER REQUIRES PRIMARY CARE PHYSICIAN REFERRAL AND PARTICIPATING IPA/PARTICIPATING MEDICAL GROUP APPROVAL"
+                                ]
+                            },
+                            {
+                                "category": "Contact Following Entity for Eligibility or Benefit Information",
+                                "categoryCode": "U",
+                                "networkStatus": "Network Not Applicable",
+                                "placeOfService": "On Campus-Outpatient Hospital",
+                                "placeOfServiceCode": "22",
+                                "authorizationRequiredUnknown": true,
+                                "payerNotes": [
+                                    "NON-EMERGENCY CARE FROM A NONPARTICIPATING PROVIDER REQUIRES PRIMARY CARE PHYSICIAN REFERRAL AND PARTICIPATING IPA/PARTICIPATING MEDICAL GROUP APPROVAL"
+                                ]
+                            }
+                        ],
+                        "payerNotes": [
+                            {
+                                "type": "Description",
+                                "typeCode": "D",
+                                "message": "MEMBERS BENEFIT PLAN ONLY COVERS URGENT AND EMERGENT SERVICES OUTSIDE OF ILLINOIS, INDIANA, KENTUCKY, MISSOURI OR WISCONSIN.  IF SERVICE RENDERED IS NOT DEEMED URGENT/EMERGENT, SERVICE MAY NOT BE COVERED."
+                            },
+                            {
+                                "type": "Description",
+                                "typeCode": "D",
+                                "message": "BENEFITS ARE BASED ON A REFERRAL FROM THE PRIMARY CARE PHYSICIAN AND MEDICAL GROUP APPROVAL."
+                            },
+                            {
+                                "type": "Description",
+                                "typeCode": "D",
+                                "message": "THE FOLLOWING MUSCLE MANIPULATION MAXIMUM MAY BE COMBINED WITH OTHER THERAPY SERVICES."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Dental Care",
+                        "type": "35",
+                        "status": "Active Coverage",
+                        "statusCode": "1",
+                        "statusDetails": {
+                            "notApplicableNetwork": [
+                                {
+                                    "status": "Active Coverage",
+                                    "statusCode": "1"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "Emergency Services",
+                        "type": "86",
+                        "amounts": {
+                            "coPayment": {
+                                "inNetwork": [
+                                    {
+                                        "amount": "500",
+                                        "units": "USD",
+                                        "amountTimePeriod": "Day",
+                                        "amountTimePeriodCode": "7",
+                                        "level": "Individual",
+                                        "levelCode": "IND",
+                                        "authorizationRequiredUnknown": true,
+                                        "payerNotes": [
+                                            "EMERGENCY ROOM SERVICES (NON-EMERGENCY) - INSTITUTIONAL",
+                                            "$500.00 PER DATE W/HISTORY FOR PLACE OF TRTMT  EMER RM ."
+                                        ]
+                                    },
+                                    {
+                                        "amount": "500",
+                                        "units": "USD",
+                                        "amountTimePeriod": "Day",
+                                        "amountTimePeriodCode": "7",
+                                        "level": "Individual",
+                                        "levelCode": "IND",
+                                        "authorizationRequiredUnknown": true,
+                                        "payerNotes": [
+                                            "EMERGENCY ROOM SERVICES (NON-EMERGENCY) - INSTITUTIONAL",
+                                            "SPECIALIST - $500.00 PER DATE W/HISTORY FOR PLACE OF TRTMT  OUTPAT ."
+                                        ]
+                                    }
+                                ],
+                                "outOfNetwork": [
+                                    {
+                                        "amount": "500",
+                                        "units": "USD",
+                                        "amountTimePeriod": "Day",
+                                        "amountTimePeriodCode": "7",
+                                        "level": "Individual",
+                                        "levelCode": "IND",
+                                        "authorizationRequiredUnknown": true,
+                                        "placeOfService": "On Campus-Outpatient Hospital",
+                                        "placeOfServiceCode": "22",
+                                        "payerNotes": [
+                                            "EMERGENCY ROOM SERVICES (NON-EMERGENCY) - INSTITUTIONAL"
+                                        ]
+                                    },
+                                    {
+                                        "amount": "500",
+                                        "units": "USD",
+                                        "amountTimePeriod": "Day",
+                                        "amountTimePeriodCode": "7",
+                                        "level": "Individual",
+                                        "levelCode": "IND",
+                                        "authorizationRequiredUnknown": true,
+                                        "placeOfService": "Emergency Room - Hospital",
+                                        "placeOfServiceCode": "23",
+                                        "payerNotes": [
+                                            "EMERGENCY ROOM SERVICES (NON-EMERGENCY) - INSTITUTIONAL"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "outOfPocket": {
+                                "notApplicableNetwork": [
+                                    {
+                                        "amount": "0",
+                                        "units": "USD",
+                                        "amountTimePeriod": "Year to Date",
+                                        "amountTimePeriodCode": "24",
+                                        "remaining": "6000",
+                                        "remainingTimePeriod": "Remaining",
+                                        "remainingTimePeriodCode": "29",
+                                        "total": "6000",
+                                        "totalTimePeriod": "Calendar Year",
+                                        "totalTimePeriodCode": "23",
+                                        "level": "Family",
+                                        "levelCode": "FAM",
+                                        "authorizationRequiredUnknown": true,
+                                        "payerNotes": [
+                                            "EMERGENCY ROOM SERVICES (NON-EMERGENCY) - INSTITUTIONAL"
+                                        ]
+                                    },
+                                    {
+                                        "amount": "0",
+                                        "units": "USD",
+                                        "amountTimePeriod": "Year to Date",
+                                        "amountTimePeriodCode": "24",
+                                        "remaining": "3000",
+                                        "remainingTimePeriod": "Remaining",
+                                        "remainingTimePeriodCode": "29",
+                                        "total": "3000",
+                                        "totalTimePeriod": "Calendar Year",
+                                        "totalTimePeriodCode": "23",
+                                        "level": "Individual",
+                                        "levelCode": "IND",
+                                        "authorizationRequiredUnknown": true,
+                                        "payerNotes": [
+                                            "EMERGENCY ROOM SERVICES (NON-EMERGENCY) - INSTITUTIONAL"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "coInsurance": {
+                                "notApplicableNetwork": [
+                                    {
+                                        "amount": "0",
+                                        "units": "Percent",
+                                        "amountTimePeriod": "Visit",
+                                        "amountTimePeriodCode": "27",
+                                        "level": "Individual",
+                                        "levelCode": "IND",
+                                        "authorizationRequiredUnknown": true,
+                                        "payerNotes": [
+                                            "EMERGENCY ROOM SERVICES (NON-EMERGENCY) - INSTITUTIONAL",
+                                            "EMERGENCY SERVICES PAID AT 100%"
+                                        ]
+                                    },
+                                    {
+                                        "amount": "0",
+                                        "units": "Percent",
+                                        "amountTimePeriod": "Visit",
+                                        "amountTimePeriodCode": "27",
+                                        "level": "Individual",
+                                        "levelCode": "IND",
+                                        "authorizationRequiredUnknown": true,
+                                        "payerNotes": [
+                                            "EMERGENCY ROOM SERVICES (NON-EMERGENCY) - INSTITUTIONAL",
+                                            "SPECIALIST - 100% COVERAGE OF THE ALLOWED AMOUNT."
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        "benefitDescriptions": {
+                            "noNetwork": [
+                                {
+                                    "payerNotes": [
+                                        "MEMBERS BENEFIT PLAN ONLY COVERS URGENT AND EMERGENT SERVICES OUTSIDE OF ILLINOIS, INDIANA, KENTUCKY, MISSOURI OR WISCONSIN.  IF SERVICE RENDERED IS NOT DEEMED URGENT/EMERGENT, SERVICE MAY NOT BE COVERED."
+                                    ]
+                                },
+                                {
+                                    "payerNotes": [
+                                        "BENEFITS ARE BASED ON A REFERRAL FROM THE PRIMARY CARE PHYSICIAN AND MEDICAL GROUP APPROVAL."
+                                    ]
+                                }
+                            ]
+                        },
+                        "contacts": [
+                            {
+                                "category": "Contact Following Entity for Eligibility or Benefit Information",
+                                "categoryCode": "U",
+                                "networkStatus": "Network Not Applicable",
+                                "placeOfService": "On Campus-Outpatient Hospital",
+                                "placeOfServiceCode": "22",
+                                "authorizationRequiredUnknown": true,
+                                "payerNotes": [
+                                    "NON-EMERGENCY CARE FROM A NONPARTICIPATING PROVIDER IN A FACILITY REQUIRES PRIMARY CARE PHYSICIAN REFERRAL AND PARTICIPATING IPA/PARTICIPATING MEDICAL GROUP APPROVAL"
+                                ]
+                            },
+                            {
+                                "category": "Contact Following Entity for Eligibility or Benefit Information",
+                                "categoryCode": "U",
+                                "networkStatus": "Network Not Applicable",
+                                "placeOfService": "Emergency Room - Hospital",
+                                "placeOfServiceCode": "23",
+                                "authorizationRequiredUnknown": true,
+                                "payerNotes": [
+                                    "NON-EMERGENCY CARE FROM A NONPARTICIPATING PROVIDER IN A FACILITY REQUIRES PRIMARY CARE PHYSICIAN REFERRAL AND PARTICIPATING IPA/PARTICIPATING MEDICAL GROUP APPROVAL"
+                                ]
+                            },
+                            {
+                                "category": "Contact Following Entity for Eligibility or Benefit Information",
+                                "categoryCode": "U",
+                                "type": "Utilization Management Organization",
+                                "typeCode": "X3",
+                                "name": "CUSTOMER SERVICE",
+                                "networkStatus": "Network Not Applicable",
+                                "authorizationRequiredUnknown": true,
+                                "contactInformation": [
+                                    {
+                                        "phone": "8009728088"
+                                    }
+                                ]
+                            }
+                        ],
+                        "payerNotes": [
+                            {
+                                "type": "Description",
+                                "typeCode": "D",
+                                "message": "MEMBERS BENEFIT PLAN ONLY COVERS URGENT AND EMERGENT SERVICES OUTSIDE OF ILLINOIS, INDIANA, KENTUCKY, MISSOURI OR WISCONSIN.  IF SERVICE RENDERED IS NOT DEEMED URGENT/EMERGENT, SERVICE MAY NOT BE COVERED."
+                            },
+                            {
+                                "type": "Description",
+                                "typeCode": "D",
+                                "message": "BENEFITS ARE BASED ON A REFERRAL FROM THE PRIMARY CARE PHYSICIAN AND MEDICAL GROUP APPROVAL."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Hospital",
+                        "type": "47",
+                        "amounts": {
+                            "coPayment": {
+                                "notApplicableNetwork": [
+                                    {
+                                        "amount": "500",
+                                        "units": "USD",
+                                        "amountTimePeriod": "Admission",
+                                        "amountTimePeriodCode": "36",
+                                        "level": "Individual",
+                                        "levelCode": "IND",
+                                        "authorizationRequiredUnknown": true,
+                                        "payerNotes": [
+                                            "DAILY ROOM AND BOARD",
+                                            "INCLUDED PROVIDER TYPES - 0A,0B,0E,0F,0H,0I,0J,0L,0N,0O,0P,0Q,0S,0W,0X,BK,CU,FE,FR,IH,IP,LT,OF,PF,RH,SF,ST"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "outOfPocket": {
+                                "notApplicableNetwork": [
+                                    {
+                                        "amount": "0",
+                                        "units": "USD",
+                                        "amountTimePeriod": "Year to Date",
+                                        "amountTimePeriodCode": "24",
+                                        "remaining": "6000",
+                                        "remainingTimePeriod": "Remaining",
+                                        "remainingTimePeriodCode": "29",
+                                        "total": "6000",
+                                        "totalTimePeriod": "Calendar Year",
+                                        "totalTimePeriodCode": "23",
+                                        "level": "Family",
+                                        "levelCode": "FAM",
+                                        "authorizationRequiredUnknown": true,
+                                        "payerNotes": [
+                                            "DAILY ROOM AND BOARD"
+                                        ]
+                                    },
+                                    {
+                                        "amount": "0",
+                                        "units": "USD",
+                                        "amountTimePeriod": "Year to Date",
+                                        "amountTimePeriodCode": "24",
+                                        "remaining": "3000",
+                                        "remainingTimePeriod": "Remaining",
+                                        "remainingTimePeriodCode": "29",
+                                        "total": "3000",
+                                        "totalTimePeriod": "Calendar Year",
+                                        "totalTimePeriodCode": "23",
+                                        "level": "Individual",
+                                        "levelCode": "IND",
+                                        "authorizationRequiredUnknown": true,
+                                        "payerNotes": [
+                                            "DAILY ROOM AND BOARD"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "coInsurance": {
+                                "notApplicableNetwork": [
+                                    {
+                                        "amount": "0",
+                                        "units": "Percent",
+                                        "amountTimePeriod": "Visit",
+                                        "amountTimePeriodCode": "27",
+                                        "level": "Individual",
+                                        "levelCode": "IND",
+                                        "authorizationRequiredUnknown": true,
+                                        "payerNotes": [
+                                            "DAILY ROOM AND BOARD"
+                                        ]
+                                    },
+                                    {
+                                        "amount": "0",
+                                        "units": "Percent",
+                                        "amountTimePeriod": "Visit",
+                                        "amountTimePeriodCode": "27",
+                                        "level": "Individual",
+                                        "levelCode": "IND",
+                                        "authorizationRequiredUnknown": true,
+                                        "payerNotes": [
+                                            "SPECIAL MEDICAL VISITS - INSTITUTIONAL"
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        "benefitDescriptions": {
+                            "noNetwork": [
+                                {
+                                    "payerNotes": [
+                                        "MEMBERS BENEFIT PLAN ONLY COVERS URGENT AND EMERGENT SERVICES OUTSIDE OF ILLINOIS, INDIANA, KENTUCKY, MISSOURI OR WISCONSIN.  IF SERVICE RENDERED IS NOT DEEMED URGENT/EMERGENT, SERVICE MAY NOT BE COVERED."
+                                    ]
+                                },
+                                {
+                                    "payerNotes": [
+                                        "BENEFITS ARE BASED ON A REFERRAL FROM THE PRIMARY CARE PHYSICIAN AND MEDICAL GROUP APPROVAL."
+                                    ]
+                                }
+                            ]
+                        },
+                        "contacts": [
+                            {
+                                "category": "Contact Following Entity for Eligibility or Benefit Information",
+                                "categoryCode": "U",
+                                "networkStatus": "Network Not Applicable",
+                                "placeOfService": "Inpatient Hospital",
+                                "placeOfServiceCode": "21",
+                                "authorizationRequiredUnknown": true,
+                                "payerNotes": [
+                                    "NON-EMERGENCY CARE FROM A NONPARTICIPATING PROVIDER IN A FACILITY REQUIRES PRIMARY CARE PHYSICIAN REFERRAL AND PARTICIPATING IPA/PARTICIPATING MEDICAL GROUP APPROVAL"
+                                ]
+                            },
+                            {
+                                "category": "Contact Following Entity for Eligibility or Benefit Information",
+                                "categoryCode": "U",
+                                "networkStatus": "Network Not Applicable",
+                                "placeOfService": "On Campus-Outpatient Hospital",
+                                "placeOfServiceCode": "22",
+                                "authorizationRequiredUnknown": true,
+                                "payerNotes": [
+                                    "NON-EMERGENCY CARE FROM A NONPARTICIPATING PROVIDER IN A FACILITY REQUIRES PRIMARY CARE PHYSICIAN REFERRAL AND PARTICIPATING IPA/PARTICIPATING MEDICAL GROUP APPROVAL"
+                                ]
+                            },
+                            {
+                                "category": "Contact Following Entity for Eligibility or Benefit Information",
+                                "categoryCode": "U",
+                                "type": "Utilization Management Organization",
+                                "typeCode": "X3",
+                                "name": "CUSTOMER SERVICE",
+                                "networkStatus": "Network Not Applicable",
+                                "authorizationRequiredUnknown": true,
+                                "contactInformation": [
+                                    {
+                                        "phone": "8009728088"
+                                    }
+                                ]
+                            },
+                            {
+                                "category": "Contact Following Entity for Eligibility or Benefit Information",
+                                "categoryCode": "U",
+                                "networkStatus": "Network Not Applicable",
+                                "placeOfService": "Inpatient Hospital",
+                                "placeOfServiceCode": "21",
+                                "authorizationRequiredUnknown": true,
+                                "payerNotes": [
+                                    "INPATIENT FACILITY STAYS REQUIRE PRIMARY CARE PHYSICIAN REFERRAL AND PARTICIPATING IPA/PARTICIPATING MEDICAL GROUP APPROVAL"
+                                ]
+                            },
+                            {
+                                "category": "Contact Following Entity for Eligibility or Benefit Information",
+                                "categoryCode": "U",
+                                "networkStatus": "Network Not Applicable",
+                                "placeOfService": "On Campus-Outpatient Hospital",
+                                "placeOfServiceCode": "22",
+                                "authorizationRequiredUnknown": true,
+                                "payerNotes": [
+                                    "NON-EMERGENCY FACILITY SERVICES REQUIRE PRIMARY CARE PHYSICIAN REFERRAL AND PARTICIPATING IPA/PARTICIPATING MEDICAL GROUP APPROVAL"
+                                ]
+                            }
+                        ],
+                        "payerNotes": [
+                            {
+                                "type": "Description",
+                                "typeCode": "D",
+                                "message": "MEMBERS BENEFIT PLAN ONLY COVERS URGENT AND EMERGENT SERVICES OUTSIDE OF ILLINOIS, INDIANA, KENTUCKY, MISSOURI OR WISCONSIN.  IF SERVICE RENDERED IS NOT DEEMED URGENT/EMERGENT, SERVICE MAY NOT BE COVERED."
+                            },
+                            {
+                                "type": "Description",
+                                "typeCode": "D",
+                                "message": "BENEFITS ARE BASED ON A REFERRAL FROM THE PRIMARY CARE PHYSICIAN AND MEDICAL GROUP APPROVAL."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Hospital - Emergency Accident",
+                        "type": "51",
+                        "amounts": {
+                            "coPayment": {
+                                "notApplicableNetwork": [
+                                    {
+                                        "amount": "500",
+                                        "units": "USD",
+                                        "amountTimePeriod": "Day",
+                                        "amountTimePeriodCode": "7",
+                                        "level": "Individual",
+                                        "levelCode": "IND",
+                                        "authorizationRequiredUnknown": true,
+                                        "payerNotes": [
+                                            "EMERGENCY ACCIDENT EMERGENCY ROOM SERVICES - INSTITUTIONAL",
+                                            "$500.00 PER DATE W/HISTORY FOR PLACE OF TRTMT  EMER RM ."
+                                        ]
+                                    },
+                                    {
+                                        "amount": "500",
+                                        "units": "USD",
+                                        "amountTimePeriod": "Day",
+                                        "amountTimePeriodCode": "7",
+                                        "level": "Individual",
+                                        "levelCode": "IND",
+                                        "authorizationRequiredUnknown": true,
+                                        "payerNotes": [
+                                            "EMERGENCY ACCIDENT EMERGENCY ROOM SERVICES - INSTITUTIONAL",
+                                            "SPECIALIST - $500.00 PER DATE W/HISTORY FOR PLACE OF TRTMT  OUTPAT ."
+                                        ]
+                                    }
+                                ]
+                            },
+                            "outOfPocket": {
+                                "notApplicableNetwork": [
+                                    {
+                                        "amount": "0",
+                                        "units": "USD",
+                                        "amountTimePeriod": "Year to Date",
+                                        "amountTimePeriodCode": "24",
+                                        "remaining": "6000",
+                                        "remainingTimePeriod": "Remaining",
+                                        "remainingTimePeriodCode": "29",
+                                        "total": "6000",
+                                        "totalTimePeriod": "Calendar Year",
+                                        "totalTimePeriodCode": "23",
+                                        "level": "Family",
+                                        "levelCode": "FAM",
+                                        "authorizationRequiredUnknown": true,
+                                        "payerNotes": [
+                                            "EMERGENCY ACCIDENT EMERGENCY ROOM SERVICES - INSTITUTIONAL"
+                                        ]
+                                    },
+                                    {
+                                        "amount": "0",
+                                        "units": "USD",
+                                        "amountTimePeriod": "Year to Date",
+                                        "amountTimePeriodCode": "24",
+                                        "remaining": "3000",
+                                        "remainingTimePeriod": "Remaining",
+                                        "remainingTimePeriodCode": "29",
+                                        "total": "3000",
+                                        "totalTimePeriod": "Calendar Year",
+                                        "totalTimePeriodCode": "23",
+                                        "level": "Individual",
+                                        "levelCode": "IND",
+                                        "authorizationRequiredUnknown": true,
+                                        "payerNotes": [
+                                            "EMERGENCY ACCIDENT EMERGENCY ROOM SERVICES - INSTITUTIONAL"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "coInsurance": {
+                                "notApplicableNetwork": [
+                                    {
+                                        "amount": "0",
+                                        "units": "Percent",
+                                        "amountTimePeriod": "Visit",
+                                        "amountTimePeriodCode": "27",
+                                        "level": "Individual",
+                                        "levelCode": "IND",
+                                        "authorizationRequiredUnknown": true,
+                                        "payerNotes": [
+                                            "EMERGENCY ACCIDENT CARE - PROFESSIONAL",
+                                            "100% COVERAGE OF THE ALLOWED AMOUNT."
+                                        ]
+                                    },
+                                    {
+                                        "amount": "0",
+                                        "units": "Percent",
+                                        "amountTimePeriod": "Visit",
+                                        "amountTimePeriodCode": "27",
+                                        "level": "Individual",
+                                        "levelCode": "IND",
+                                        "authorizationRequiredUnknown": true,
+                                        "payerNotes": [
+                                            "EMERGENCY ACCIDENT CARE - PROFESSIONAL",
+                                            "SPECIALIST - EMERGENCY SERVICES PAID AT 100%"
+                                        ]
+                                    },
+                                    {
+                                        "amount": "0",
+                                        "units": "Percent",
+                                        "amountTimePeriod": "Visit",
+                                        "amountTimePeriodCode": "27",
+                                        "level": "Individual",
+                                        "levelCode": "IND",
+                                        "authorizationRequiredUnknown": true,
+                                        "payerNotes": [
+                                            "EMERGENCY ACCIDENT EMERGENCY ROOM SERVICES - INSTITUTIONAL",
+                                            "EMERGENCY SERVICES PAID AT 100%"
+                                        ]
+                                    },
+                                    {
+                                        "amount": "0",
+                                        "units": "Percent",
+                                        "amountTimePeriod": "Visit",
+                                        "amountTimePeriodCode": "27",
+                                        "level": "Individual",
+                                        "levelCode": "IND",
+                                        "authorizationRequiredUnknown": true,
+                                        "payerNotes": [
+                                            "EMERGENCY ACCIDENT EMERGENCY ROOM SERVICES - INSTITUTIONAL",
+                                            "SPECIALIST - 100% COVERAGE OF THE ALLOWED AMOUNT."
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        "benefitDescriptions": {
+                            "noNetwork": [
+                                {
+                                    "payerNotes": [
+                                        "MEMBERS BENEFIT PLAN ONLY COVERS URGENT AND EMERGENT SERVICES OUTSIDE OF ILLINOIS, INDIANA, KENTUCKY, MISSOURI OR WISCONSIN.  IF SERVICE RENDERED IS NOT DEEMED URGENT/EMERGENT, SERVICE MAY NOT BE COVERED."
+                                    ]
+                                },
+                                {
+                                    "payerNotes": [
+                                        "BENEFITS ARE BASED ON A REFERRAL FROM THE PRIMARY CARE PHYSICIAN AND MEDICAL GROUP APPROVAL."
+                                    ]
+                                }
+                            ]
+                        },
+                        "contacts": [
+                            {
+                                "category": "Contact Following Entity for Eligibility or Benefit Information",
+                                "categoryCode": "U",
+                                "networkStatus": "Network Not Applicable",
+                                "placeOfService": "On Campus-Outpatient Hospital",
+                                "placeOfServiceCode": "22",
+                                "authorizationRequiredUnknown": true,
+                                "payerNotes": [
+                                    "NON-EMERGENCY CARE FROM A NONPARTICIPATING PROVIDER IN A FACILITY REQUIRES PRIMARY CARE PHYSICIAN REFERRAL AND PARTICIPATING IPA/PARTICIPATING MEDICAL GROUP APPROVAL"
+                                ]
+                            },
+                            {
+                                "category": "Contact Following Entity for Eligibility or Benefit Information",
+                                "categoryCode": "U",
+                                "networkStatus": "Network Not Applicable",
+                                "placeOfService": "Emergency Room - Hospital",
+                                "placeOfServiceCode": "23",
+                                "authorizationRequiredUnknown": true,
+                                "payerNotes": [
+                                    "NON-EMERGENCY CARE FROM A NONPARTICIPATING PROVIDER IN A FACILITY REQUIRES PRIMARY CARE PHYSICIAN REFERRAL AND PARTICIPATING IPA/PARTICIPATING MEDICAL GROUP APPROVAL"
+                                ]
+                            },
+                            {
+                                "category": "Contact Following Entity for Eligibility or Benefit Information",
+                                "categoryCode": "U",
+                                "networkStatus": "Network Not Applicable",
+                                "placeOfService": "Office",
+                                "placeOfServiceCode": "11",
+                                "authorizationRequiredUnknown": true,
+                                "payerNotes": [
+                                    "NON-EMERGENCY CARE FROM A NONPARTICIPATING PROVIDER IN A FACILITY REQUIRES PRIMARY CARE PHYSICIAN REFERRAL AND PARTICIPATING IPA/PARTICIPATING MEDICAL GROUP APPROVAL"
+                                ]
+                            },
+                            {
+                                "category": "Contact Following Entity for Eligibility or Benefit Information",
+                                "categoryCode": "U",
+                                "type": "Utilization Management Organization",
+                                "typeCode": "X3",
+                                "name": "CUSTOMER SERVICE",
+                                "networkStatus": "Network Not Applicable",
+                                "authorizationRequiredUnknown": true,
+                                "contactInformation": [
+                                    {
+                                        "phone": "8009728088"
+                                    }
+                                ]
+                            }
+                        ],
+                        "payerNotes": [
+                            {
+                                "type": "Description",
+                                "typeCode": "D",
+                                "message": "MEMBERS BENEFIT PLAN ONLY COVERS URGENT AND EMERGENT SERVICES OUTSIDE OF ILLINOIS, INDIANA, KENTUCKY, MISSOURI OR WISCONSIN.  IF SERVICE RENDERED IS NOT DEEMED URGENT/EMERGENT, SERVICE MAY NOT BE COVERED."
+                            },
+                            {
+                                "type": "Description",
+                                "typeCode": "D",
+                                "message": "BENEFITS ARE BASED ON A REFERRAL FROM THE PRIMARY CARE PHYSICIAN AND MEDICAL GROUP APPROVAL."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Hospital - Emergency Medical",
+                        "type": "52",
+                        "amounts": {
+                            "coPayment": {
+                                "notApplicableNetwork": [
+                                    {
+                                        "amount": "500",
+                                        "units": "USD",
+                                        "amountTimePeriod": "Day",
+                                        "amountTimePeriodCode": "7",
+                                        "level": "Individual",
+                                        "levelCode": "IND",
+                                        "authorizationRequiredUnknown": true,
+                                        "payerNotes": [
+                                            "EMERGENCY MEDICAL CARE EMERGENCY ROOM SERVICES - INSTITUTIONAL",
+                                            "$500.00 PER DATE W/HISTORY FOR PLACE OF TRTMT  EMER RM ."
+                                        ]
+                                    },
+                                    {
+                                        "amount": "500",
+                                        "units": "USD",
+                                        "amountTimePeriod": "Day",
+                                        "amountTimePeriodCode": "7",
+                                        "level": "Individual",
+                                        "levelCode": "IND",
+                                        "authorizationRequiredUnknown": true,
+                                        "payerNotes": [
+                                            "EMERGENCY MEDICAL CARE EMERGENCY ROOM SERVICES - INSTITUTIONAL",
+                                            "SPECIALIST - $500.00 PER DATE W/HISTORY FOR PLACE OF TRTMT  OUTPAT ."
+                                        ]
+                                    }
+                                ]
+                            },
+                            "outOfPocket": {
+                                "notApplicableNetwork": [
+                                    {
+                                        "amount": "0",
+                                        "units": "USD",
+                                        "amountTimePeriod": "Year to Date",
+                                        "amountTimePeriodCode": "24",
+                                        "remaining": "6000",
+                                        "remainingTimePeriod": "Remaining",
+                                        "remainingTimePeriodCode": "29",
+                                        "total": "6000",
+                                        "totalTimePeriod": "Calendar Year",
+                                        "totalTimePeriodCode": "23",
+                                        "level": "Family",
+                                        "levelCode": "FAM",
+                                        "authorizationRequiredUnknown": true,
+                                        "payerNotes": [
+                                            "EMERGENCY MEDICAL CARE EMERGENCY ROOM SERVICES - INSTITUTIONAL"
+                                        ]
+                                    },
+                                    {
+                                        "amount": "0",
+                                        "units": "USD",
+                                        "amountTimePeriod": "Year to Date",
+                                        "amountTimePeriodCode": "24",
+                                        "remaining": "3000",
+                                        "remainingTimePeriod": "Remaining",
+                                        "remainingTimePeriodCode": "29",
+                                        "total": "3000",
+                                        "totalTimePeriod": "Calendar Year",
+                                        "totalTimePeriodCode": "23",
+                                        "level": "Individual",
+                                        "levelCode": "IND",
+                                        "authorizationRequiredUnknown": true,
+                                        "payerNotes": [
+                                            "EMERGENCY MEDICAL CARE EMERGENCY ROOM SERVICES - INSTITUTIONAL"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "coInsurance": {
+                                "notApplicableNetwork": [
+                                    {
+                                        "amount": "0",
+                                        "units": "Percent",
+                                        "amountTimePeriod": "Visit",
+                                        "amountTimePeriodCode": "27",
+                                        "level": "Individual",
+                                        "levelCode": "IND",
+                                        "authorizationRequiredUnknown": true,
+                                        "payerNotes": [
+                                            "EMERGENCY MEDICAL CARE - PROFESSIONAL",
+                                            "100% COVERAGE OF THE ALLOWED AMOUNT."
+                                        ]
+                                    },
+                                    {
+                                        "amount": "0",
+                                        "units": "Percent",
+                                        "amountTimePeriod": "Visit",
+                                        "amountTimePeriodCode": "27",
+                                        "level": "Individual",
+                                        "levelCode": "IND",
+                                        "authorizationRequiredUnknown": true,
+                                        "payerNotes": [
+                                            "EMERGENCY MEDICAL CARE - PROFESSIONAL",
+                                            "SPECIALIST - EMERGENCY SERVICES PAID AT 100%"
+                                        ]
+                                    },
+                                    {
+                                        "amount": "0",
+                                        "units": "Percent",
+                                        "amountTimePeriod": "Visit",
+                                        "amountTimePeriodCode": "27",
+                                        "level": "Individual",
+                                        "levelCode": "IND",
+                                        "authorizationRequiredUnknown": true,
+                                        "payerNotes": [
+                                            "EMERGENCY MEDICAL CARE EMERGENCY ROOM SERVICES - INSTITUTIONAL",
+                                            "EMERGENCY SERVICES PAID AT 100%"
+                                        ]
+                                    },
+                                    {
+                                        "amount": "0",
+                                        "units": "Percent",
+                                        "amountTimePeriod": "Visit",
+                                        "amountTimePeriodCode": "27",
+                                        "level": "Individual",
+                                        "levelCode": "IND",
+                                        "authorizationRequiredUnknown": true,
+                                        "payerNotes": [
+                                            "EMERGENCY MEDICAL CARE EMERGENCY ROOM SERVICES - INSTITUTIONAL",
+                                            "SPECIALIST - 100% COVERAGE OF THE ALLOWED AMOUNT."
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        "benefitDescriptions": {
+                            "noNetwork": [
+                                {
+                                    "payerNotes": [
+                                        "MEMBERS BENEFIT PLAN ONLY COVERS URGENT AND EMERGENT SERVICES OUTSIDE OF ILLINOIS, INDIANA, KENTUCKY, MISSOURI OR WISCONSIN.  IF SERVICE RENDERED IS NOT DEEMED URGENT/EMERGENT, SERVICE MAY NOT BE COVERED."
+                                    ]
+                                },
+                                {
+                                    "payerNotes": [
+                                        "BENEFITS ARE BASED ON A REFERRAL FROM THE PRIMARY CARE PHYSICIAN AND MEDICAL GROUP APPROVAL."
+                                    ]
+                                }
+                            ]
+                        },
+                        "contacts": [
+                            {
+                                "category": "Contact Following Entity for Eligibility or Benefit Information",
+                                "categoryCode": "U",
+                                "networkStatus": "Network Not Applicable",
+                                "placeOfService": "On Campus-Outpatient Hospital",
+                                "placeOfServiceCode": "22",
+                                "authorizationRequiredUnknown": true,
+                                "payerNotes": [
+                                    "NON-EMERGENCY CARE FROM A NONPARTICIPATING PROVIDER IN A FACILITY REQUIRES PRIMARY CARE PHYSICIAN REFERRAL AND PARTICIPATING IPA/PARTICIPATING MEDICAL GROUP APPROVAL"
+                                ]
+                            },
+                            {
+                                "category": "Contact Following Entity for Eligibility or Benefit Information",
+                                "categoryCode": "U",
+                                "networkStatus": "Network Not Applicable",
+                                "placeOfService": "Emergency Room - Hospital",
+                                "placeOfServiceCode": "23",
+                                "authorizationRequiredUnknown": true,
+                                "payerNotes": [
+                                    "NON-EMERGENCY CARE FROM A NONPARTICIPATING PROVIDER IN A FACILITY REQUIRES PRIMARY CARE PHYSICIAN REFERRAL AND PARTICIPATING IPA/PARTICIPATING MEDICAL GROUP APPROVAL"
+                                ]
+                            },
+                            {
+                                "category": "Contact Following Entity for Eligibility or Benefit Information",
+                                "categoryCode": "U",
+                                "type": "Utilization Management Organization",
+                                "typeCode": "X3",
+                                "name": "CUSTOMER SERVICE",
+                                "networkStatus": "Network Not Applicable",
+                                "authorizationRequiredUnknown": true,
+                                "contactInformation": [
+                                    {
+                                        "phone": "8009728088"
+                                    }
+                                ]
+                            }
+                        ],
+                        "payerNotes": [
+                            {
+                                "type": "Description",
+                                "typeCode": "D",
+                                "message": "MEMBERS BENEFIT PLAN ONLY COVERS URGENT AND EMERGENT SERVICES OUTSIDE OF ILLINOIS, INDIANA, KENTUCKY, MISSOURI OR WISCONSIN.  IF SERVICE RENDERED IS NOT DEEMED URGENT/EMERGENT, SERVICE MAY NOT BE COVERED."
+                            },
+                            {
+                                "type": "Description",
+                                "typeCode": "D",
+                                "message": "BENEFITS ARE BASED ON A REFERRAL FROM THE PRIMARY CARE PHYSICIAN AND MEDICAL GROUP APPROVAL."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Hospital - Inpatient",
+                        "type": "48",
+                        "amounts": {
+                            "coPayment": {
+                                "notApplicableNetwork": [
+                                    {
+                                        "amount": "500",
+                                        "units": "USD",
+                                        "amountTimePeriod": "Admission",
+                                        "amountTimePeriodCode": "36",
+                                        "level": "Individual",
+                                        "levelCode": "IND",
+                                        "authorizationRequiredUnknown": true,
+                                        "payerNotes": [
+                                            "DAILY ROOM AND BOARD",
+                                            "INCLUDED PROVIDER TYPES - 0A,0B,0E,0F,0H,0I,0J,0L,0N,0O,0P,0Q,0S,0W,0X,BK,CU,FE,FR,IH,IP,LT,OF,PF,RH,SF,ST"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "outOfPocket": {
+                                "notApplicableNetwork": [
+                                    {
+                                        "amount": "0",
+                                        "units": "USD",
+                                        "amountTimePeriod": "Year to Date",
+                                        "amountTimePeriodCode": "24",
+                                        "remaining": "6000",
+                                        "remainingTimePeriod": "Remaining",
+                                        "remainingTimePeriodCode": "29",
+                                        "total": "6000",
+                                        "totalTimePeriod": "Calendar Year",
+                                        "totalTimePeriodCode": "23",
+                                        "level": "Family",
+                                        "levelCode": "FAM",
+                                        "authorizationRequiredUnknown": true,
+                                        "payerNotes": [
+                                            "DAILY ROOM AND BOARD"
+                                        ]
+                                    },
+                                    {
+                                        "amount": "0",
+                                        "units": "USD",
+                                        "amountTimePeriod": "Year to Date",
+                                        "amountTimePeriodCode": "24",
+                                        "remaining": "3000",
+                                        "remainingTimePeriod": "Remaining",
+                                        "remainingTimePeriodCode": "29",
+                                        "total": "3000",
+                                        "totalTimePeriod": "Calendar Year",
+                                        "totalTimePeriodCode": "23",
+                                        "level": "Individual",
+                                        "levelCode": "IND",
+                                        "authorizationRequiredUnknown": true,
+                                        "payerNotes": [
+                                            "DAILY ROOM AND BOARD"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "coInsurance": {
+                                "notApplicableNetwork": [
+                                    {
+                                        "amount": "0",
+                                        "units": "Percent",
+                                        "amountTimePeriod": "Visit",
+                                        "amountTimePeriodCode": "27",
+                                        "level": "Individual",
+                                        "levelCode": "IND",
+                                        "authorizationRequiredUnknown": true,
+                                        "payerNotes": [
+                                            "DAILY ROOM AND BOARD"
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        "benefitDescriptions": {
+                            "noNetwork": [
+                                {
+                                    "payerNotes": [
+                                        "MEMBERS BENEFIT PLAN ONLY COVERS URGENT AND EMERGENT SERVICES OUTSIDE OF ILLINOIS, INDIANA, KENTUCKY, MISSOURI OR WISCONSIN.  IF SERVICE RENDERED IS NOT DEEMED URGENT/EMERGENT, SERVICE MAY NOT BE COVERED."
+                                    ]
+                                },
+                                {
+                                    "payerNotes": [
+                                        "BENEFITS ARE BASED ON A REFERRAL FROM THE PRIMARY CARE PHYSICIAN AND MEDICAL GROUP APPROVAL."
+                                    ]
+                                }
+                            ]
+                        },
+                        "contacts": [
+                            {
+                                "category": "Contact Following Entity for Eligibility or Benefit Information",
+                                "categoryCode": "U",
+                                "networkStatus": "Network Not Applicable",
+                                "placeOfService": "Inpatient Hospital",
+                                "placeOfServiceCode": "21",
+                                "authorizationRequiredUnknown": true,
+                                "payerNotes": [
+                                    "NON-EMERGENCY CARE FROM A NONPARTICIPATING PROVIDER IN A FACILITY REQUIRES PRIMARY CARE PHYSICIAN REFERRAL AND PARTICIPATING IPA/PARTICIPATING MEDICAL GROUP APPROVAL"
+                                ]
+                            },
+                            {
+                                "category": "Contact Following Entity for Eligibility or Benefit Information",
+                                "categoryCode": "U",
+                                "type": "Utilization Management Organization",
+                                "typeCode": "X3",
+                                "name": "CUSTOMER SERVICE",
+                                "networkStatus": "Network Not Applicable",
+                                "authorizationRequiredUnknown": true,
+                                "contactInformation": [
+                                    {
+                                        "phone": "8009728088"
+                                    }
+                                ]
+                            },
+                            {
+                                "category": "Contact Following Entity for Eligibility or Benefit Information",
+                                "categoryCode": "U",
+                                "networkStatus": "Network Not Applicable",
+                                "placeOfService": "Inpatient Hospital",
+                                "placeOfServiceCode": "21",
+                                "authorizationRequiredUnknown": true,
+                                "payerNotes": [
+                                    "INPATIENT FACILITY STAYS REQUIRE PRIMARY CARE PHYSICIAN REFERRAL AND PARTICIPATING IPA/PARTICIPATING MEDICAL GROUP APPROVAL"
+                                ]
+                            }
+                        ],
+                        "payerNotes": [
+                            {
+                                "type": "Description",
+                                "typeCode": "D",
+                                "message": "MEMBERS BENEFIT PLAN ONLY COVERS URGENT AND EMERGENT SERVICES OUTSIDE OF ILLINOIS, INDIANA, KENTUCKY, MISSOURI OR WISCONSIN.  IF SERVICE RENDERED IS NOT DEEMED URGENT/EMERGENT, SERVICE MAY NOT BE COVERED."
+                            },
+                            {
+                                "type": "Description",
+                                "typeCode": "D",
+                                "message": "BENEFITS ARE BASED ON A REFERRAL FROM THE PRIMARY CARE PHYSICIAN AND MEDICAL GROUP APPROVAL."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Hospital - Outpatient",
+                        "type": "50",
+                        "amounts": {
+                            "coInsurance": {
+                                "notApplicableNetwork": [
+                                    {
+                                        "amount": "0",
+                                        "units": "Percent",
+                                        "amountTimePeriod": "Visit",
+                                        "amountTimePeriodCode": "27",
+                                        "level": "Individual",
+                                        "levelCode": "IND",
+                                        "authorizationRequiredUnknown": true,
+                                        "payerNotes": [
+                                            "SPECIAL MEDICAL VISITS - INSTITUTIONAL"
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        "benefitDescriptions": {
+                            "noNetwork": [
+                                {
+                                    "payerNotes": [
+                                        "MEMBERS BENEFIT PLAN ONLY COVERS URGENT AND EMERGENT SERVICES OUTSIDE OF ILLINOIS, INDIANA, KENTUCKY, MISSOURI OR WISCONSIN.  IF SERVICE RENDERED IS NOT DEEMED URGENT/EMERGENT, SERVICE MAY NOT BE COVERED."
+                                    ]
+                                },
+                                {
+                                    "payerNotes": [
+                                        "BENEFITS ARE BASED ON A REFERRAL FROM THE PRIMARY CARE PHYSICIAN AND MEDICAL GROUP APPROVAL."
+                                    ]
+                                }
+                            ]
+                        },
+                        "contacts": [
+                            {
+                                "category": "Contact Following Entity for Eligibility or Benefit Information",
+                                "categoryCode": "U",
+                                "networkStatus": "Network Not Applicable",
+                                "placeOfService": "On Campus-Outpatient Hospital",
+                                "placeOfServiceCode": "22",
+                                "authorizationRequiredUnknown": true,
+                                "payerNotes": [
+                                    "NON-EMERGENCY CARE FROM A NONPARTICIPATING PROVIDER IN A FACILITY REQUIRES PRIMARY CARE PHYSICIAN REFERRAL AND PARTICIPATING IPA/PARTICIPATING MEDICAL GROUP APPROVAL"
+                                ]
+                            },
+                            {
+                                "category": "Contact Following Entity for Eligibility or Benefit Information",
+                                "categoryCode": "U",
+                                "type": "Utilization Management Organization",
+                                "typeCode": "X3",
+                                "name": "CUSTOMER SERVICE",
+                                "networkStatus": "Network Not Applicable",
+                                "authorizationRequiredUnknown": true,
+                                "contactInformation": [
+                                    {
+                                        "phone": "8009728088"
+                                    }
+                                ]
+                            },
+                            {
+                                "category": "Contact Following Entity for Eligibility or Benefit Information",
+                                "categoryCode": "U",
+                                "networkStatus": "Network Not Applicable",
+                                "placeOfService": "On Campus-Outpatient Hospital",
+                                "placeOfServiceCode": "22",
+                                "authorizationRequiredUnknown": true,
+                                "payerNotes": [
+                                    "NON-EMERGENCY FACILITY SERVICES REQUIRE PRIMARY CARE PHYSICIAN REFERRAL AND PARTICIPATING IPA/PARTICIPATING MEDICAL GROUP APPROVAL"
+                                ]
+                            }
+                        ],
+                        "payerNotes": [
+                            {
+                                "type": "Description",
+                                "typeCode": "D",
+                                "message": "MEMBERS BENEFIT PLAN ONLY COVERS URGENT AND EMERGENT SERVICES OUTSIDE OF ILLINOIS, INDIANA, KENTUCKY, MISSOURI OR WISCONSIN.  IF SERVICE RENDERED IS NOT DEEMED URGENT/EMERGENT, SERVICE MAY NOT BE COVERED."
+                            },
+                            {
+                                "type": "Description",
+                                "typeCode": "D",
+                                "message": "BENEFITS ARE BASED ON A REFERRAL FROM THE PRIMARY CARE PHYSICIAN AND MEDICAL GROUP APPROVAL."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Medical Care",
+                        "type": "1",
+                        "status": "Active Coverage",
+                        "statusCode": "1",
+                        "statusDetails": {
+                            "notApplicableNetwork": [
+                                {
+                                    "status": "Active Coverage",
+                                    "statusCode": "1"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "Mental Health",
+                        "type": "MH",
+                        "status": "Active Coverage",
+                        "statusCode": "1",
+                        "statusDetails": {
+                            "notApplicableNetwork": [
+                                {
+                                    "status": "Active Coverage",
+                                    "statusCode": "1"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "Pharmacy",
+                        "type": "88",
+                        "status": "Active Coverage",
+                        "statusCode": "1",
+                        "statusDetails": {
+                            "notApplicableNetwork": [
+                                {
+                                    "status": "Active Coverage",
+                                    "statusCode": "1"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "Physician Visit - Office: Well",
+                        "type": "BZ",
+                        "amounts": {
+                            "coInsurance": {
+                                "notApplicableNetwork": [
+                                    {
+                                        "amount": "0",
+                                        "units": "Percent",
+                                        "amountTimePeriod": "Visit",
+                                        "amountTimePeriodCode": "27",
+                                        "level": "Individual",
+                                        "levelCode": "IND",
+                                        "authorizationRequiredUnknown": true,
+                                        "payerNotes": [
+                                            "PHYSICAL HISTORY - PROFESSIONAL"
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        "benefitDescriptions": {
+                            "noNetwork": [
+                                {
+                                    "payerNotes": [
+                                        "MEMBERS BENEFIT PLAN ONLY COVERS URGENT AND EMERGENT SERVICES OUTSIDE OF ILLINOIS, INDIANA, KENTUCKY, MISSOURI OR WISCONSIN.  IF SERVICE RENDERED IS NOT DEEMED URGENT/EMERGENT, SERVICE MAY NOT BE COVERED."
+                                    ]
+                                },
+                                {
+                                    "payerNotes": [
+                                        "BENEFITS ARE BASED ON A REFERRAL FROM THE PRIMARY CARE PHYSICIAN AND MEDICAL GROUP APPROVAL."
+                                    ]
+                                }
+                            ]
+                        },
+                        "contacts": [
+                            {
+                                "category": "Contact Following Entity for Eligibility or Benefit Information",
+                                "categoryCode": "U",
+                                "networkStatus": "Network Not Applicable",
+                                "placeOfService": "Office",
+                                "placeOfServiceCode": "11",
+                                "authorizationRequiredUnknown": true,
+                                "payerNotes": [
+                                    "NON-EMERGENCY CARE FROM A NONPARTICIPATING PROVIDER IN A FACILITY REQUIRES PRIMARY CARE PHYSICIAN REFERRAL AND PARTICIPATING IPA/PARTICIPATING MEDICAL GROUP APPROVAL"
+                                ]
+                            },
+                            {
+                                "category": "Contact Following Entity for Eligibility or Benefit Information",
+                                "categoryCode": "U",
+                                "type": "Utilization Management Organization",
+                                "typeCode": "X3",
+                                "name": "CUSTOMER SERVICE",
+                                "networkStatus": "Network Not Applicable",
+                                "authorizationRequiredUnknown": true,
+                                "contactInformation": [
+                                    {
+                                        "phone": "8009728088"
+                                    }
+                                ]
+                            },
+                            {
+                                "category": "Contact Following Entity for Eligibility or Benefit Information",
+                                "categoryCode": "U",
+                                "networkStatus": "Network Not Applicable",
+                                "placeOfService": "Office",
+                                "placeOfServiceCode": "11",
+                                "authorizationRequiredUnknown": true,
+                                "payerNotes": [
+                                    "NON-EMERGENCY FACILITY SERVICES REQUIRE PRIMARY CARE PHYSICIAN REFERRAL AND PARTICIPATING IPA/PARTICIPATING MEDICAL GROUP APPROVAL"
+                                ]
+                            },
+                            {
+                                "category": "Contact Following Entity for Eligibility or Benefit Information",
+                                "categoryCode": "U",
+                                "networkStatus": "Network Not Applicable",
+                                "placeOfService": "Office",
+                                "placeOfServiceCode": "11",
+                                "authorizationRequiredUnknown": true,
+                                "payerNotes": [
+                                    "NON-EMERGENCY SERVICES REQUIRE PRIMARY CARE PHYSICIAN REFERRAL AND PARTICIPATING IPA/PARTICIPATING MEDICAL GROUP APPROVAL"
+                                ]
+                            },
+                            {
+                                "category": "Contact Following Entity for Eligibility or Benefit Information",
+                                "categoryCode": "U",
+                                "networkStatus": "Network Not Applicable",
+                                "placeOfService": "Office",
+                                "placeOfServiceCode": "11",
+                                "authorizationRequiredUnknown": true,
+                                "payerNotes": [
+                                    "NON-EMERGENCY CARE FROM A NONPARTICIPATING PROVIDER REQUIRES PRIMARY CARE PHYSICIAN REFERRAL AND PARTICIPATING IPA/PARTICIPATING MEDICAL GROUP APPROVAL"
+                                ]
+                            }
+                        ],
+                        "payerNotes": [
+                            {
+                                "type": "Description",
+                                "typeCode": "D",
+                                "message": "MEMBERS BENEFIT PLAN ONLY COVERS URGENT AND EMERGENT SERVICES OUTSIDE OF ILLINOIS, INDIANA, KENTUCKY, MISSOURI OR WISCONSIN.  IF SERVICE RENDERED IS NOT DEEMED URGENT/EMERGENT, SERVICE MAY NOT BE COVERED."
+                            },
+                            {
+                                "type": "Description",
+                                "typeCode": "D",
+                                "message": "BENEFITS ARE BASED ON A REFERRAL FROM THE PRIMARY CARE PHYSICIAN AND MEDICAL GROUP APPROVAL."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Professional (Physician) Visit - Office",
+                        "type": "98",
+                        "amounts": {
+                            "coPayment": {
+                                "notApplicableNetwork": [
+                                    {
+                                        "amount": "50",
+                                        "units": "USD",
+                                        "amountTimePeriod": "Visit",
+                                        "amountTimePeriodCode": "27",
+                                        "level": "Individual",
+                                        "levelCode": "IND",
+                                        "authorizationRequiredUnknown": true,
+                                        "payerNotes": [
+                                            "OFFICE VISIT - PROFESSIONAL",
+                                            "$50.00 PER DATE PER CLAIM FOR PLACE OF TRTMT  OFFICE .",
+                                            "INCLUDED PROVIDER SPECIALTIES - 001,008,009,011,015,016,026,035,055,057,058,074,079,083,084,085,087,088,089,092,093,099,101,102,104,110,111,120,121,122,129,382,388,539,572,593,594,598,711,712,716,725,727,773,774,999"
+                                        ]
+                                    },
+                                    {
+                                        "amount": "70",
+                                        "units": "USD",
+                                        "amountTimePeriod": "Visit",
+                                        "amountTimePeriodCode": "27",
+                                        "level": "Individual",
+                                        "levelCode": "IND",
+                                        "authorizationRequiredUnknown": true,
+                                        "payerNotes": [
+                                            "OFFICE VISIT - PROFESSIONAL",
+                                            "$70.00 PER DATE PER CLAIM FOR PLACE OF TRTMT  OFFICE .",
+                                            "EXCLUDED PROVIDER SPECIALTIES - 001,008,009,011,015,016,026,035,055,057,058,074,079,083,084,085,087,088,089,092,093,099,101,102,104,110,111,120,121,122,129,382,388,539,572,593,594,598,711,712,716,725,727,773,774,999"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "outOfPocket": {
+                                "notApplicableNetwork": [
+                                    {
+                                        "amount": "0",
+                                        "units": "USD",
+                                        "amountTimePeriod": "Year to Date",
+                                        "amountTimePeriodCode": "24",
+                                        "remaining": "6000",
+                                        "remainingTimePeriod": "Remaining",
+                                        "remainingTimePeriodCode": "29",
+                                        "total": "6000",
+                                        "totalTimePeriod": "Calendar Year",
+                                        "totalTimePeriodCode": "23",
+                                        "level": "Family",
+                                        "levelCode": "FAM",
+                                        "authorizationRequiredUnknown": true,
+                                        "payerNotes": [
+                                            "OFFICE VISIT - PROFESSIONAL"
+                                        ]
+                                    },
+                                    {
+                                        "amount": "0",
+                                        "units": "USD",
+                                        "amountTimePeriod": "Year to Date",
+                                        "amountTimePeriodCode": "24",
+                                        "remaining": "3000",
+                                        "remainingTimePeriod": "Remaining",
+                                        "remainingTimePeriodCode": "29",
+                                        "total": "3000",
+                                        "totalTimePeriod": "Calendar Year",
+                                        "totalTimePeriodCode": "23",
+                                        "level": "Individual",
+                                        "levelCode": "IND",
+                                        "authorizationRequiredUnknown": true,
+                                        "payerNotes": [
+                                            "OFFICE VISIT - PROFESSIONAL"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "coInsurance": {
+                                "notApplicableNetwork": [
+                                    {
+                                        "amount": "0",
+                                        "units": "Percent",
+                                        "amountTimePeriod": "Visit",
+                                        "amountTimePeriodCode": "27",
+                                        "level": "Individual",
+                                        "levelCode": "IND",
+                                        "authorizationRequiredUnknown": true,
+                                        "payerNotes": [
+                                            "OFFICE VISIT - PROFESSIONAL"
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        "benefitDescriptions": {
+                            "noNetwork": [
+                                {
+                                    "payerNotes": [
+                                        "MEMBERS BENEFIT PLAN ONLY COVERS URGENT AND EMERGENT SERVICES OUTSIDE OF ILLINOIS, INDIANA, KENTUCKY, MISSOURI OR WISCONSIN.  IF SERVICE RENDERED IS NOT DEEMED URGENT/EMERGENT, SERVICE MAY NOT BE COVERED."
+                                    ]
+                                },
+                                {
+                                    "payerNotes": [
+                                        "BENEFITS ARE BASED ON A REFERRAL FROM THE PRIMARY CARE PHYSICIAN AND MEDICAL GROUP APPROVAL."
+                                    ]
+                                }
+                            ]
+                        },
+                        "contacts": [
+                            {
+                                "category": "Contact Following Entity for Eligibility or Benefit Information",
+                                "categoryCode": "U",
+                                "networkStatus": "Network Not Applicable",
+                                "placeOfService": "Office",
+                                "placeOfServiceCode": "11",
+                                "authorizationRequiredUnknown": true,
+                                "payerNotes": [
+                                    "NON-EMERGENCY CARE FROM A NONPARTICIPATING PROVIDER IN A FACILITY REQUIRES PRIMARY CARE PHYSICIAN REFERRAL AND PARTICIPATING IPA/PARTICIPATING MEDICAL GROUP APPROVAL"
+                                ]
+                            },
+                            {
+                                "category": "Contact Following Entity for Eligibility or Benefit Information",
+                                "categoryCode": "U",
+                                "type": "Utilization Management Organization",
+                                "typeCode": "X3",
+                                "name": "CUSTOMER SERVICE",
+                                "networkStatus": "Network Not Applicable",
+                                "authorizationRequiredUnknown": true,
+                                "contactInformation": [
+                                    {
+                                        "phone": "8009728088"
+                                    }
+                                ]
+                            },
+                            {
+                                "category": "Contact Following Entity for Eligibility or Benefit Information",
+                                "categoryCode": "U",
+                                "networkStatus": "Network Not Applicable",
+                                "placeOfService": "Office",
+                                "placeOfServiceCode": "11",
+                                "authorizationRequiredUnknown": true,
+                                "payerNotes": [
+                                    "NON-EMERGENCY FACILITY SERVICES REQUIRE PRIMARY CARE PHYSICIAN REFERRAL AND PARTICIPATING IPA/PARTICIPATING MEDICAL GROUP APPROVAL"
+                                ]
+                            },
+                            {
+                                "category": "Contact Following Entity for Eligibility or Benefit Information",
+                                "categoryCode": "U",
+                                "networkStatus": "Network Not Applicable",
+                                "placeOfService": "Office",
+                                "placeOfServiceCode": "11",
+                                "authorizationRequiredUnknown": true,
+                                "payerNotes": [
+                                    "NON-EMERGENCY SERVICES REQUIRE PRIMARY CARE PHYSICIAN REFERRAL AND PARTICIPATING IPA/PARTICIPATING MEDICAL GROUP APPROVAL"
+                                ]
+                            },
+                            {
+                                "category": "Contact Following Entity for Eligibility or Benefit Information",
+                                "categoryCode": "U",
+                                "networkStatus": "Network Not Applicable",
+                                "placeOfService": "Office",
+                                "placeOfServiceCode": "11",
+                                "authorizationRequiredUnknown": true,
+                                "payerNotes": [
+                                    "NON-EMERGENCY CARE FROM A NONPARTICIPATING PROVIDER REQUIRES PRIMARY CARE PHYSICIAN REFERRAL AND PARTICIPATING IPA/PARTICIPATING MEDICAL GROUP APPROVAL"
+                                ]
+                            }
+                        ],
+                        "payerNotes": [
+                            {
+                                "type": "Description",
+                                "typeCode": "D",
+                                "message": "MEMBERS BENEFIT PLAN ONLY COVERS URGENT AND EMERGENT SERVICES OUTSIDE OF ILLINOIS, INDIANA, KENTUCKY, MISSOURI OR WISCONSIN.  IF SERVICE RENDERED IS NOT DEEMED URGENT/EMERGENT, SERVICE MAY NOT BE COVERED."
+                            },
+                            {
+                                "type": "Description",
+                                "typeCode": "D",
+                                "message": "BENEFITS ARE BASED ON A REFERRAL FROM THE PRIMARY CARE PHYSICIAN AND MEDICAL GROUP APPROVAL."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Urgent Care",
+                        "type": "UC",
+                        "amounts": {
+                            "coInsurance": {
+                                "notApplicableNetwork": [
+                                    {
+                                        "amount": "0",
+                                        "units": "Percent",
+                                        "amountTimePeriod": "Visit",
+                                        "amountTimePeriodCode": "27",
+                                        "level": "Individual",
+                                        "levelCode": "IND",
+                                        "authorizationRequiredUnknown": true,
+                                        "payerNotes": [
+                                            "EMERGENCY ACCIDENT OFFICE VISIT - PROFESSIONAL;EMERGENCY MEDICAL OFFICE VISIT - PROFESSIONAL",
+                                            "100% COVERAGE OF THE ALLOWED AMOUNT."
+                                        ]
+                                    },
+                                    {
+                                        "amount": "0",
+                                        "units": "Percent",
+                                        "amountTimePeriod": "Visit",
+                                        "amountTimePeriodCode": "27",
+                                        "level": "Individual",
+                                        "levelCode": "IND",
+                                        "authorizationRequiredUnknown": true,
+                                        "payerNotes": [
+                                            "EMERGENCY ACCIDENT OFFICE VISIT - PROFESSIONAL;EMERGENCY MEDICAL OFFICE VISIT - PROFESSIONAL",
+                                            "SPECIALIST - EMERGENCY SERVICES PAID AT 100%"
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        "benefitDescriptions": {
+                            "noNetwork": [
+                                {
+                                    "payerNotes": [
+                                        "MEMBERS BENEFIT PLAN ONLY COVERS URGENT AND EMERGENT SERVICES OUTSIDE OF ILLINOIS, INDIANA, KENTUCKY, MISSOURI OR WISCONSIN.  IF SERVICE RENDERED IS NOT DEEMED URGENT/EMERGENT, SERVICE MAY NOT BE COVERED."
+                                    ]
+                                },
+                                {
+                                    "payerNotes": [
+                                        "BENEFITS ARE BASED ON A REFERRAL FROM THE PRIMARY CARE PHYSICIAN AND MEDICAL GROUP APPROVAL."
+                                    ]
+                                }
+                            ]
+                        },
+                        "contacts": [
+                            {
+                                "category": "Contact Following Entity for Eligibility or Benefit Information",
+                                "categoryCode": "U",
+                                "networkStatus": "Network Not Applicable",
+                                "placeOfService": "Office",
+                                "placeOfServiceCode": "11",
+                                "authorizationRequiredUnknown": true,
+                                "payerNotes": [
+                                    "NON-EMERGENCY CARE FROM A NONPARTICIPATING PROVIDER IN A FACILITY REQUIRES PRIMARY CARE PHYSICIAN REFERRAL AND PARTICIPATING IPA/PARTICIPATING MEDICAL GROUP APPROVAL"
+                                ]
+                            },
+                            {
+                                "category": "Contact Following Entity for Eligibility or Benefit Information",
+                                "categoryCode": "U",
+                                "type": "Utilization Management Organization",
+                                "typeCode": "X3",
+                                "name": "CUSTOMER SERVICE",
+                                "networkStatus": "Network Not Applicable",
+                                "authorizationRequiredUnknown": true,
+                                "contactInformation": [
+                                    {
+                                        "phone": "8009728088"
+                                    }
+                                ]
+                            },
+                            {
+                                "category": "Contact Following Entity for Eligibility or Benefit Information",
+                                "categoryCode": "U",
+                                "networkStatus": "Network Not Applicable",
+                                "placeOfService": "Office",
+                                "placeOfServiceCode": "11",
+                                "authorizationRequiredUnknown": true,
+                                "payerNotes": [
+                                    "NON-EMERGENCY FACILITY SERVICES REQUIRE PRIMARY CARE PHYSICIAN REFERRAL AND PARTICIPATING IPA/PARTICIPATING MEDICAL GROUP APPROVAL"
+                                ]
+                            },
+                            {
+                                "category": "Contact Following Entity for Eligibility or Benefit Information",
+                                "categoryCode": "U",
+                                "networkStatus": "Network Not Applicable",
+                                "placeOfService": "Office",
+                                "placeOfServiceCode": "11",
+                                "authorizationRequiredUnknown": true,
+                                "payerNotes": [
+                                    "NON-EMERGENCY SERVICES REQUIRE PRIMARY CARE PHYSICIAN REFERRAL AND PARTICIPATING IPA/PARTICIPATING MEDICAL GROUP APPROVAL"
+                                ]
+                            },
+                            {
+                                "category": "Contact Following Entity for Eligibility or Benefit Information",
+                                "categoryCode": "U",
+                                "networkStatus": "Network Not Applicable",
+                                "placeOfService": "Office",
+                                "placeOfServiceCode": "11",
+                                "authorizationRequiredUnknown": true,
+                                "payerNotes": [
+                                    "NON-EMERGENCY CARE FROM A NONPARTICIPATING PROVIDER REQUIRES PRIMARY CARE PHYSICIAN REFERRAL AND PARTICIPATING IPA/PARTICIPATING MEDICAL GROUP APPROVAL"
+                                ]
+                            }
+                        ],
+                        "payerNotes": [
+                            {
+                                "type": "Description",
+                                "typeCode": "D",
+                                "message": "MEMBERS BENEFIT PLAN ONLY COVERS URGENT AND EMERGENT SERVICES OUTSIDE OF ILLINOIS, INDIANA, KENTUCKY, MISSOURI OR WISCONSIN.  IF SERVICE RENDERED IS NOT DEEMED URGENT/EMERGENT, SERVICE MAY NOT BE COVERED."
+                            },
+                            {
+                                "type": "Description",
+                                "typeCode": "D",
+                                "message": "BENEFITS ARE BASED ON A REFERRAL FROM THE PRIMARY CARE PHYSICIAN AND MEDICAL GROUP APPROVAL."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Vision (Optometry)",
+                        "type": "AL",
+                        "status": "Active Coverage",
+                        "statusCode": "1",
+                        "statusDetails": {
+                            "notApplicableNetwork": [
+                                {
+                                    "status": "Active Coverage",
+                                    "statusCode": "1"
+                                }
+                            ]
+                        },
+                        "amounts": {
+                            "coInsurance": {
+                                "notApplicableNetwork": [
+                                    {
+                                        "amount": "0",
+                                        "units": "Percent",
+                                        "amountTimePeriod": "Visit",
+                                        "amountTimePeriodCode": "27",
+                                        "level": "Individual",
+                                        "levelCode": "IND",
+                                        "authorizationRequiredUnknown": true,
+                                        "payerNotes": [
+                                            "ROUTINE VISION EXAM - PROFESSIONAL"
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        "benefitDescriptions": {
+                            "noNetwork": [
+                                {
+                                    "payerNotes": [
+                                        "MEMBERS BENEFIT PLAN ONLY COVERS URGENT AND EMERGENT SERVICES OUTSIDE OF ILLINOIS, INDIANA, KENTUCKY, MISSOURI OR WISCONSIN.  IF SERVICE RENDERED IS NOT DEEMED URGENT/EMERGENT, SERVICE MAY NOT BE COVERED."
+                                    ]
+                                },
+                                {
+                                    "payerNotes": [
+                                        "BENEFITS ARE BASED ON A REFERRAL FROM THE PRIMARY CARE PHYSICIAN AND MEDICAL GROUP APPROVAL."
+                                    ]
+                                }
+                            ]
+                        },
+                        "contacts": [
+                            {
+                                "category": "Contact Following Entity for Eligibility or Benefit Information",
+                                "categoryCode": "U",
+                                "networkStatus": "Network Not Applicable",
+                                "placeOfService": "On Campus-Outpatient Hospital",
+                                "placeOfServiceCode": "22",
+                                "authorizationRequiredUnknown": true,
+                                "payerNotes": [
+                                    "NON-EMERGENCY CARE FROM A NONPARTICIPATING PROVIDER IN A FACILITY REQUIRES PRIMARY CARE PHYSICIAN REFERRAL AND PARTICIPATING IPA/PARTICIPATING MEDICAL GROUP APPROVAL"
+                                ]
+                            },
+                            {
+                                "category": "Contact Following Entity for Eligibility or Benefit Information",
+                                "categoryCode": "U",
+                                "networkStatus": "Network Not Applicable",
+                                "placeOfService": "Office",
+                                "placeOfServiceCode": "11",
+                                "authorizationRequiredUnknown": true,
+                                "payerNotes": [
+                                    "NON-EMERGENCY CARE FROM A NONPARTICIPATING PROVIDER IN A FACILITY REQUIRES PRIMARY CARE PHYSICIAN REFERRAL AND PARTICIPATING IPA/PARTICIPATING MEDICAL GROUP APPROVAL"
+                                ]
+                            },
+                            {
+                                "category": "Contact Following Entity for Eligibility or Benefit Information",
+                                "categoryCode": "U",
+                                "type": "Utilization Management Organization",
+                                "typeCode": "X3",
+                                "name": "CUSTOMER SERVICE",
+                                "networkStatus": "Network Not Applicable",
+                                "authorizationRequiredUnknown": true,
+                                "contactInformation": [
+                                    {
+                                        "phone": "8009728088"
+                                    }
+                                ]
+                            },
+                            {
+                                "category": "Contact Following Entity for Eligibility or Benefit Information",
+                                "categoryCode": "U",
+                                "networkStatus": "Network Not Applicable",
+                                "placeOfService": "Office",
+                                "placeOfServiceCode": "11",
+                                "authorizationRequiredUnknown": true,
+                                "payerNotes": [
+                                    "NON-EMERGENCY FACILITY SERVICES REQUIRE PRIMARY CARE PHYSICIAN REFERRAL AND PARTICIPATING IPA/PARTICIPATING MEDICAL GROUP APPROVAL"
+                                ]
+                            },
+                            {
+                                "category": "Contact Following Entity for Eligibility or Benefit Information",
+                                "categoryCode": "U",
+                                "networkStatus": "Network Not Applicable",
+                                "placeOfService": "On Campus-Outpatient Hospital",
+                                "placeOfServiceCode": "22",
+                                "authorizationRequiredUnknown": true,
+                                "payerNotes": [
+                                    "NON-EMERGENCY FACILITY SERVICES REQUIRE PRIMARY CARE PHYSICIAN REFERRAL AND PARTICIPATING IPA/PARTICIPATING MEDICAL GROUP APPROVAL"
+                                ]
+                            },
+                            {
+                                "category": "Contact Following Entity for Eligibility or Benefit Information",
+                                "categoryCode": "U",
+                                "networkStatus": "Network Not Applicable",
+                                "placeOfService": "Office",
+                                "placeOfServiceCode": "11",
+                                "authorizationRequiredUnknown": true,
+                                "payerNotes": [
+                                    "NON-EMERGENCY SERVICES REQUIRE PRIMARY CARE PHYSICIAN REFERRAL AND PARTICIPATING IPA/PARTICIPATING MEDICAL GROUP APPROVAL"
+                                ]
+                            },
+                            {
+                                "category": "Contact Following Entity for Eligibility or Benefit Information",
+                                "categoryCode": "U",
+                                "networkStatus": "Network Not Applicable",
+                                "placeOfService": "On Campus-Outpatient Hospital",
+                                "placeOfServiceCode": "22",
+                                "authorizationRequiredUnknown": true,
+                                "payerNotes": [
+                                    "NON-EMERGENCY SERVICES REQUIRE PRIMARY CARE PHYSICIAN REFERRAL AND PARTICIPATING IPA/PARTICIPATING MEDICAL GROUP APPROVAL"
+                                ]
+                            },
+                            {
+                                "category": "Contact Following Entity for Eligibility or Benefit Information",
+                                "categoryCode": "U",
+                                "networkStatus": "Network Not Applicable",
+                                "placeOfService": "Office",
+                                "placeOfServiceCode": "11",
+                                "authorizationRequiredUnknown": true,
+                                "payerNotes": [
+                                    "NON-EMERGENCY CARE FROM A NONPARTICIPATING PROVIDER REQUIRES PRIMARY CARE PHYSICIAN REFERRAL AND PARTICIPATING IPA/PARTICIPATING MEDICAL GROUP APPROVAL"
+                                ]
+                            },
+                            {
+                                "category": "Contact Following Entity for Eligibility or Benefit Information",
+                                "categoryCode": "U",
+                                "networkStatus": "Network Not Applicable",
+                                "placeOfService": "On Campus-Outpatient Hospital",
+                                "placeOfServiceCode": "22",
+                                "authorizationRequiredUnknown": true,
+                                "payerNotes": [
+                                    "NON-EMERGENCY CARE FROM A NONPARTICIPATING PROVIDER REQUIRES PRIMARY CARE PHYSICIAN REFERRAL AND PARTICIPATING IPA/PARTICIPATING MEDICAL GROUP APPROVAL"
+                                ]
+                            }
+                        ],
+                        "payerNotes": [
+                            {
+                                "type": "Description",
+                                "typeCode": "D",
+                                "message": "MEMBERS BENEFIT PLAN ONLY COVERS URGENT AND EMERGENT SERVICES OUTSIDE OF ILLINOIS, INDIANA, KENTUCKY, MISSOURI OR WISCONSIN.  IF SERVICE RENDERED IS NOT DEEMED URGENT/EMERGENT, SERVICE MAY NOT BE COVERED."
+                            },
+                            {
+                                "type": "Description",
+                                "typeCode": "D",
+                                "message": "BENEFITS ARE BASED ON A REFERRAL FROM THE PRIMARY CARE PHYSICIAN AND MEDICAL GROUP APPROVAL."
+                            }
+                        ]
+                    }
+                ],
+                "benefitDescriptions": {
+                    "noNetwork": [
+                        {
+                            "payerNotes": [
+                                "BENEFIT ABBREVIATIONS - 0A=INTERN/RESIDENT HOSPITAL,0B=INTERN/RESIDENT HOSPITAL UPP,0E=PLAN HOSPITAL,0F=UPP HOSPITAL,0H=STATE INSTITUTION,0I=FOREIGN CLAIMS,0J=RELIG NON-MED HLTH INST,0L=SUBSTANCE ABUSE FREE STANDING,0N=NON-PLAN DUMMY PROVIDER,",
+                                "0O=ECF (EXTENDED CARE FACILITY),0P=PLAN DUMMY PROVIDER,0Q=MEDICARE APPROVED ECF/SNF,0S=HOSPICE,0W=JCAH APP ECF,0X=JCAH APP ALCH IP & OP,BK=BIRTHING CENTER,CU=COMMUNITY BASED HEALTH CARE CENTER,FE=FREE STANDING ER,FR=FREE STANDING REHABILITATION,",
+                                "IH=INPATIENT HOSPITAL PSYCH,IP=IMPLANT PROVIDERS,LT=LONG TERM ACUTE CARE FACILITY,OF=OCCUPATIONAL THERAPY FACILITY,PF=PHYSICAL THERAPY FACILITY,RH=RURAL HEALTH FACILITY,SF=SKILLED NURSING FACILITY,ST=SPEECH PATHOLOGY FACILITY,001=GENERAL PRACTICE,",
+                                "008=FAMILY PRACTICE,009=GYNECOLOGY,011=INTERNAL MEDICINE,015=OBSTETRICS,016=OBSTETRICS-GYNECOLOGY,026=PSYCHIATRY,035=PEDIATRICS,055=MIXED THERAPY OCCUPATIONAL PHYSICAL SPEECH,057=LICENSED CLINICAL PROFESSIONAL COUNSELOR,058=RURAL HEALTH CLINIC,",
+                                "074=CERTIFIED NURSE MIDWIFE,079=MIXED SPECIALTIES CLINIC,083=PHYSICAL THERAPY,084=OCCUPATIONAL THERAPY,085=SPEECH PATHOLOGY,087=RADIOLOGY TECH,088=LAB TECH,089=BACTERIOLOGY/MICROBIOLOGY,092=CLINICAL PSYCHOLOGY,093=LICENSED CLINICAL SOCIAL WORKER,",
+                                "099=UNKNOWN,101=LCSW/LCPC/LMFT GRP,102=PHYSICIAN ASSISTANT,104=SKILLED NURSE THERAPIST,110=NEUROPSYCHOLOGY,111=LICENSED MARRIAGE/FAMILY THERAPY,120=CERTIFIED NURSE SPECIALIST,121=CERTIFIED NURSE PRACTITIONER,122=URGENT CARE PROVIDER,",
+                                "129=RETAIL HEALTH PROVIDER,382=FAMILY PLANNING CENTER,388=FEDERALLY QUALIFIED HEALTH CLINIC (FQHC),539=CHILD & ADOLESCENT PSYCHIATRY,572=INDIAN HEALTH SERVICES CLINIC,593=BOARD CERTIFIED BEHAVIOR ANALYST,594=BOARD CERTIFIED ASSISTANT BEHAVIOR ANALYST,",
+                                "598=BOARD CERTIFIED BEHAVIOR ANALYST-DOCTORAL,711=CERTIFIED EARLY INTERVENTION SPECIALIST,712=URGENT CARE CENTER,716=LICENSED PROFESSIONAL COUNSELOR,725=BEHAVIORAL HEALTH MIXED SPECIALTY,727=LICENSED SOCIAL WORKER,773=VA-DOD CLINIC,774=PHLEBOLOGY,",
+                                "999=MIXED NON SOLICITABLE GROUP"
+                            ]
+                        }
+                    ]
+                },
+                "insuranceType": "Preferred Provider Organization (PPO)",
+                "insuranceTypeCode": "PR",
+                "payerNotes": [
+                    {
+                        "type": "Description",
+                        "typeCode": "D",
+                        "message": "BENEFIT ABBREVIATIONS - 0A=INTERN/RESIDENT HOSPITAL,0B=INTERN/RESIDENT HOSPITAL UPP,0E=PLAN HOSPITAL,0F=UPP HOSPITAL,0H=STATE INSTITUTION,0I=FOREIGN CLAIMS,0J=RELIG NON-MED HLTH INST,0L=SUBSTANCE ABUSE FREE STANDING,0N=NON-PLAN DUMMY PROVIDER,"
+                    },
+                    {
+                        "type": "Description",
+                        "typeCode": "D",
+                        "message": "0O=ECF (EXTENDED CARE FACILITY),0P=PLAN DUMMY PROVIDER,0Q=MEDICARE APPROVED ECF/SNF,0S=HOSPICE,0W=JCAH APP ECF,0X=JCAH APP ALCH IP & OP,BK=BIRTHING CENTER,CU=COMMUNITY BASED HEALTH CARE CENTER,FE=FREE STANDING ER,FR=FREE STANDING REHABILITATION,"
+                    },
+                    {
+                        "type": "Description",
+                        "typeCode": "D",
+                        "message": "IH=INPATIENT HOSPITAL PSYCH,IP=IMPLANT PROVIDERS,LT=LONG TERM ACUTE CARE FACILITY,OF=OCCUPATIONAL THERAPY FACILITY,PF=PHYSICAL THERAPY FACILITY,RH=RURAL HEALTH FACILITY,SF=SKILLED NURSING FACILITY,ST=SPEECH PATHOLOGY FACILITY,001=GENERAL PRACTICE,"
+                    },
+                    {
+                        "type": "Description",
+                        "typeCode": "D",
+                        "message": "008=FAMILY PRACTICE,009=GYNECOLOGY,011=INTERNAL MEDICINE,015=OBSTETRICS,016=OBSTETRICS-GYNECOLOGY,026=PSYCHIATRY,035=PEDIATRICS,055=MIXED THERAPY OCCUPATIONAL PHYSICAL SPEECH,057=LICENSED CLINICAL PROFESSIONAL COUNSELOR,058=RURAL HEALTH CLINIC,"
+                    },
+                    {
+                        "type": "Description",
+                        "typeCode": "D",
+                        "message": "074=CERTIFIED NURSE MIDWIFE,079=MIXED SPECIALTIES CLINIC,083=PHYSICAL THERAPY,084=OCCUPATIONAL THERAPY,085=SPEECH PATHOLOGY,087=RADIOLOGY TECH,088=LAB TECH,089=BACTERIOLOGY/MICROBIOLOGY,092=CLINICAL PSYCHOLOGY,093=LICENSED CLINICAL SOCIAL WORKER,"
+                    },
+                    {
+                        "type": "Description",
+                        "typeCode": "D",
+                        "message": "099=UNKNOWN,101=LCSW/LCPC/LMFT GRP,102=PHYSICIAN ASSISTANT,104=SKILLED NURSE THERAPIST,110=NEUROPSYCHOLOGY,111=LICENSED MARRIAGE/FAMILY THERAPY,120=CERTIFIED NURSE SPECIALIST,121=CERTIFIED NURSE PRACTITIONER,122=URGENT CARE PROVIDER,"
+                    },
+                    {
+                        "type": "Description",
+                        "typeCode": "D",
+                        "message": "129=RETAIL HEALTH PROVIDER,382=FAMILY PLANNING CENTER,388=FEDERALLY QUALIFIED HEALTH CLINIC (FQHC),539=CHILD & ADOLESCENT PSYCHIATRY,572=INDIAN HEALTH SERVICES CLINIC,593=BOARD CERTIFIED BEHAVIOR ANALYST,594=BOARD CERTIFIED ASSISTANT BEHAVIOR ANALYST,"
+                    },
+                    {
+                        "type": "Description",
+                        "typeCode": "D",
+                        "message": "598=BOARD CERTIFIED BEHAVIOR ANALYST-DOCTORAL,711=CERTIFIED EARLY INTERVENTION SPECIALIST,712=URGENT CARE CENTER,716=LICENSED PROFESSIONAL COUNSELOR,725=BEHAVIORAL HEALTH MIXED SPECIALTY,727=LICENSED SOCIAL WORKER,773=VA-DOD CLINIC,774=PHLEBOLOGY,"
+                    },
+                    {
+                        "type": "Description",
+                        "typeCode": "D",
+                        "message": "999=MIXED NON SOLICITABLE GROUP"
+                    },
+                    {
+                        "type": "Disclaimer",
+                        "typeCode": "P",
+                        "message": "UNLESS OTHERWISE REQUIRED BY STATE LAW, THIS NOTICE IS NOT A GUARANTEE OF PAYMENT. BENEFITS ARE SUBJECT TO ALL CONTRACT LIMITS AND THE MEMBER'S STATUS ON THE DATE OF SERVICE. ACCUMULATED AMOUNTS SUCH AS DEDUCTIBLE MAY CHANGE AS ADDITIONAL CLAIMS ARE PROCESSED."
+                    }
+                ]
+            }
+        ],
+        "supplementalInformation": {
+            "professionalPatientCostEstimator": false,
+            "institutionalPatientCostEstimator": false,
+            "patientCareSummary": false,
+            "assessmentCarePlan": false,
+            "outOfArea": false,
+            "requestLtssccAmount": false,
+            "erReferralCompleted": false,
+            "functionalIdentifierCode": "HB",
+            "applicationSenderCode": "00510BS",
+            "eligibleForCOB": false
+        },
+        "hasHRAInformation": false
+    },
+    "status": true
+}

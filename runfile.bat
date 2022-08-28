@@ -1,0 +1,1 @@
+"c:\Program Files\Java\jdk-18.0.2\bin\java" -cp "c:\Users\PreetiprS\Documents\Raintree1\lib\*" waterlabs.Raintree asfdasdf asdfads asddf adfsadf true
